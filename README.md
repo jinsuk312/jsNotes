@@ -13,7 +13,9 @@ var userName = prompt('Whats your name?');
 var confirmName = confirm('Did you put the correct name?');
 ```
 
-## IF/ELSE - Prompt user at browser
+
+## IF / ELSE 
+
 ``` 
 if(userName & confirmName){
     alert(userName + ' would you like to adopt ' + userName + '?';
@@ -28,4 +30,13 @@ document.write() overwrites the entire page, so its not usually used.
 
 ```
 document.write('Welcome to our page ' + userName);
+```
+
+## ARRAYS
+
+```
+//creates animal array
+var animals = ["parrots", "cats", "dogs"];
+//logs length of animal array
+console.log(animal.length)
 ```
